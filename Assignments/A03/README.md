@@ -2,7 +2,7 @@
 ### Victor Marchesi
 ### Description:
 
-This assignment is.
+This assignment is to register to online judge and to solve a hashmat problem.
 
 ### Files
 
