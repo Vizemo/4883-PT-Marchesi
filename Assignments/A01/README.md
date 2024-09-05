@@ -2,7 +2,7 @@
 ### Victor Marchesi
 ### Description:
 
-This assignment is to set up comms, add myself to the class roster and update pictures on slack profile.
+This assignment is to set up comms, add myself to the class roster and update pictures on slack profile. [link](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/A01)
 
 ### Files
 
