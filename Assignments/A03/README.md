@@ -18,7 +18,8 @@ This assignment is to register to online judge and to solve a hashmat problem. [
 - To run on VS Code using g++ compiler.
 - Path over to your directory with the main.cpp and test.txt on it.
 - Run the `g++ main.cpp -o main` command in your console.
-- Note: This wil compile your program and create a .exe file calle main.exe so you can do the bellow commands
+- Note: This will compile your program and create a .exe file called main.exe so you can do the below commands
+- Instructions on how to download g++ on VS Code. [https://code.visualstudio.com/docs/cpp/config-mingw](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 ##### Two options for Windows or Linux
 - Run the `main.exe < test.txt` if your are using Windows.
