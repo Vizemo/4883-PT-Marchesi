@@ -27,4 +27,6 @@ This assignment is to register to online judge and to solve a hashmat problem. [
 
 ### Example Command
 
-- None.
+- `g++ main.cpp -o main`
+- `main.exe < test.txt`
+- `./main < test.txt`
