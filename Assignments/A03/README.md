@@ -8,7 +8,8 @@ This assignment is to register to online judge and to solve a hashmat problem. [
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | No files | No files. |
+|  1  | [main.cpp](./main.cpp) | Main file of the program. |
+|  2  | [test.txt](./test.txt) | Test data from [https://www.udebug.com/UVa/10055](https://www.udebug.com/UVa/10055) |
 
 
 ### Instructions
