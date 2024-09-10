@@ -12,9 +12,9 @@ Prepare a 1-2 paragraph synopsis of your plan if you had to teach this course. T
 |   1   | No files | No files. |
 
 
-### Instructions
+### Work
 
-- This program does not require any non standard libraries
+I would prefer to use either Hackerank or Leetcode. I have used Hackerank in the past when I first got into computer science and thought the overall UI and interactions with the service were good. Leetcode is the best option in my opinion as I have done quite a few problems, and the ease of use is a huge plus for me. With leetcode we can be assigned a problem, and solve the problem right one the app. You could even do it on your phone which is not the best, but it is possible.
 
 ### Example Command
 
