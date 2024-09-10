@@ -14,7 +14,7 @@ Prepare a 1-2 paragraph synopsis of your plan if you had to teach this course. T
 
 ### Work
 
-I would prefer to use either Hackerank or Leetcode. I have used Hackerank in the past when I first got into computer science and thought the overall UI and interactions with the service were good. Leetcode is the best option in my opinion as I have done quite a few problems, and the ease of use is a huge plus for me. With leetcode we can be assigned a problem, and solve the problem right one the app. You could even do it on your phone which is not the best, but it is possible.
+I would prefer to use either Hackerank or Leetcode. I have used Hackerank in the past when I first got into computer science and thought the overall UI and interactions with the service were good. Leetcode is the best option in my opinion as I have done quite a few problems, and the ease of use is a huge plus for me. With leetcode we can be assigned a problem, solve the problem right on the app, and test the code all on  the app without any issues in multiple different languages. You could even do it on your phone which is not the best, but it is possible.
 
 ### Example Command
 
