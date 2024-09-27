@@ -15,3 +15,4 @@ This read me provides a link to all of the files in this class repo.
 |  5  | [A05](./A05) | filler |
 |  6  | [A06](./A06) | filler |
 |  7  | [A07](./A07) | filler |
+|  8  | [A08](./A08) | Graphin Sleezy |
