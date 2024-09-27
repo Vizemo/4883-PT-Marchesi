@@ -1,4 +1,4 @@
-## A06 - What To Do
+## A06 - Hardwood Sneezy
 ### Victor Marchesi
 ### Description:
 
@@ -22,6 +22,4 @@ Problem I Chose:
 
 ### Example Command
 
-- `g++ main.cpp -o main`
-- `main.exe < test.txt`
-- `./main < test.txt`
+- 
