@@ -21,6 +21,4 @@ Problem I Chose: [200. Number of Islands](https://leetcode.com/problems/number-o
 
 ### Example Command
 
-- `g++ main.cpp -o main`
-- `main.exe < test.txt`
-- `./main < test.txt`
+- 
