@@ -1,4 +1,4 @@
-## P(####) - REPLACEMEBP
+## P(9) - Palindrome Number
 ### Victor Marchesi
 ### Instructions:
 
@@ -17,7 +17,7 @@ Commit this content to your github repo by the due date.
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
 |  1  | [PDF](./REPLACEME.pdf) | PDF instructions for REPLACEME. |
-|  2  | [Main.cpp](./REPLACEME.cpp) | Main.cpp for the problem REPLACEME. |
+|  2  | [solution.cpp](./solution.cpp) | Main.cpp for the problem REPLACEME. |
 |  3  | [Input](./REPLACEME.txt) | Input file for the problem REPLACEME. |
 
 
