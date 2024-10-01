@@ -22,7 +22,7 @@ Commit this content to your github repo by the due date.
 |  3  | [Input file from leetcode](./input.txt) | Input file for the problem P(9). |
 
 
-### Example Command
+### Instructions
 
 - Code was compiled on Leetcode.
 - My solutions stats
