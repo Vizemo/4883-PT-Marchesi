@@ -22,10 +22,6 @@ Commit this content to your github repo by the due date.
 |  3  | [Input file from leetcode](./input.txt) | Input file for the problem P(9). |
 
 
-### Instructions
-
-- NoneYet
-
 ### Example Command
 
 - Code was compiled on Leetcode.
