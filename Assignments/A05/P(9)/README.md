@@ -26,4 +26,4 @@ Commit this content to your github repo by the due date.
 
 - Code was compiled on Leetcode.
 - My solutions stats
-![alt text](image.png)
+- ![alt text](image.png)
