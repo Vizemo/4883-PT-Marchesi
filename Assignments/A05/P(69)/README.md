@@ -1,4 +1,4 @@
-## P(9) - Palindrome Number
+## P(69) - Sqrt(x)
 ### Victor Marchesi
 ### Instructions:
 
@@ -10,16 +10,16 @@ Commit this content to your github repo by the due date.
 
 ## Description
 
-- I chose problem [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) from the list above.
+- I chose problem [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) from the list above.
 - Below are the documents for the assignment list with short descriptions.
 
 ### Files
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./Palindrome_Number.pdf) | PDF instructions for P(9). |
-|  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P(9). |
-|  3  | [Input data from leetcode](./input.txt) | Input file for the problem P(9). |
+|  1  | [Instruction PDF](./Palindrome_Number.pdf) | PDF instructions for P(69). |
+|  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P(69). |
+|  3  | [Input data from leetcode](./input.txt) | Input file for the problem P(69). |
 |  4  | [Results image](./results.png) | PNG of my submission. |
 
 ### Results
