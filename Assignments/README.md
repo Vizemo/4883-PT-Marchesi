@@ -12,7 +12,8 @@ This read me provides a link to all of the files in this class repo.
 |  2  | [A02](./A02) | Code Repository |
 |  3  | [A03](./A03) | Register + Hashmat |
 |  4  | [A04](./A04) | What To Do |
-|  5  | [A05](./A05) | filler |
-|  6  | [A06](./A06) | filler |
-|  7  | [A07](./A07) | filler |
+|  5  | [A05](./A05) | Easy Breezy |
+|  6  | [A06](./A06) | Hardwood Sneezy |
+|  7  | [A07](./A07) | Priority Queezy |
 |  8  | [A08](./A08) | Graphin Sleezy |
+|  8  | [A09](./A09) | Convex Hull |
