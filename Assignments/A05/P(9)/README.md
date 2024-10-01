@@ -10,22 +10,21 @@ Commit this content to your github repo by the due date.
 
 ## Description
 
-- NoneYet
+- I chose problem [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) from the list above.
+- Below are the documents for the assignment list.
 
 ### Files
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [PDF](./REPLACEME.pdf) | PDF instructions for REPLACEME. |
-|  2  | [solution.cpp](./solution.cpp) | Main.cpp for the problem REPLACEME. |
+|  1  | [Palindrome_Number](./Palindrome_Number.pdf) | PDF instructions for REPLACEME. |
+|  2  | [solution.cpp](./solution.cpp) | solution.cpp for the problem REPLACEME. |
 |  3  | [Input](./REPLACEME.txt) | Input file for the problem REPLACEME. |
 
 
 ### Instructions
 
 - NoneYet
-
-
 
 ### Example Command
 
