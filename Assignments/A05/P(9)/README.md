@@ -17,9 +17,9 @@ Commit this content to your github repo by the due date.
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [Palindrome_Number](./Palindrome_Number.pdf) | PDF instructions for REPLACEME. |
-|  2  | [solution.cpp](./solution.cpp) | solution.cpp for the problem REPLACEME. |
-|  3  | [Input](./REPLACEME.txt) | Input file for the problem REPLACEME. |
+|  1  | [Palindrome Number PDF](./Palindrome_Number.pdf) | PDF instructions for P(9). |
+|  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P(9). |
+|  3  | [Input file from leetcode](./input.txt) | Input file for the problem P(9). |
 
 
 ### Instructions
@@ -28,4 +28,6 @@ Commit this content to your github repo by the due date.
 
 ### Example Command
 
-- NoneYet
+- Code was compiled on Leetcode.
+- My solutions stats
+![alt text](image.png)
