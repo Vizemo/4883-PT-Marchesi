@@ -1,4 +1,4 @@
-## P(69) - Sqrt(x)
+## P69 - Sqrt(x)
 ### Victor Marchesi
 ### Instructions:
 

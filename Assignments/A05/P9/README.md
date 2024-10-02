@@ -1,4 +1,4 @@
-## P(9) - Palindrome Number
+## P9 - Palindrome Number
 ### Victor Marchesi
 ### Instructions:
 
