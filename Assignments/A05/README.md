@@ -14,8 +14,8 @@ Commit this content to your github repo by the due date.
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [P(9) - Palindrome Number](./P(9)) | Folder for problem 9 - Palindrome Number from leetcode. |
-|  2  | [P(69) - Sqrt(x)](./P(69)) | Folder for problem 69 - Sqrt(x) from leetcode. |
+|  1  | [P9 - Palindrome Number](./P9) | Folder for problem 9 - Palindrome Number from leetcode. |
+|  2  | [P69 - Sqrt(x)](./P69) | Folder for problem 69 - Sqrt(x) from leetcode. |
 |  3  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 |  4  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 |  5  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
