@@ -12,7 +12,7 @@
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
 |  1  | [Instruction PDF](./valid_palindrome.pdf) | PDF instructions for P9. |
-|  2  | [Solution](./solution.cpp) | solution.cpp for the problem P9. |
+|  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P9. |
 |  3  | [Input data from leetcode](./input.txt) | Input file for the problem P9. |
 |  4  | [Results image](./results.png) | PNG of my submission. |
 
