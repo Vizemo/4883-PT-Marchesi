@@ -41,7 +41,7 @@ public:
             // Update the carry (sum divided by 10)
             carry = sum / 10;
 
-            // Create the new node with the digit value (sum % 10)
+            // Create the new node with the single digit value
             ListNode* newNode = new ListNode(sum % 10);
 
             // If head is null, it's the first node of the result list
@@ -49,7 +49,7 @@ public:
                 head = newNode;
                 current = head;
             }
-            else {
+            else{
                 current->next = newNode;
                 current = current->next;
             }
