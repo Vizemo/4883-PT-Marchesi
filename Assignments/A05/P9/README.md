@@ -10,7 +10,7 @@
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./Palindrome_Number.pdf) | PDF instructions for P9. |
+|  1  | [Instruction PDF](./palindrome_number.pdf) | PDF instructions for P9. |
 |  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P9. |
 |  3  | [Input data from leetcode](./input.txt) | Input file for the problem P9. |
 

@@ -3,7 +3,7 @@
 
 ## Description
 
-- I chose problem [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/A05).
+- I chose problem [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/A05).
 - Below are the documents for the assignment list with short descriptions.
 
 ### Files
