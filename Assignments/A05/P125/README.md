@@ -1,6 +1,5 @@
 ## 125 - Valid Palindrome
 ### Victor Marchesi
-### Instructions:
 
 ## Description
 
