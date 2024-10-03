@@ -8,15 +8,13 @@ Make sure you create an acceptable README file for this project (presentation is
 Commit this content to your github repo by the due date. 
 [Link](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/A05) to the instructions and options.
 
-
-
 ### Files
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
 |  1  | [P9 - Palindrome Number](./P9) | Folder for problem 9 - Palindrome Number from leetcode. |
 |  2  | [P69 - Sqrt(x)](./P69) | Folder for problem 69 - Sqrt(x) from leetcode. |
-|  3  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
+|  3  | [P125 - Valid Palindrome](./P125) | Folder for problem 125 - Valid Palindrome from leetcode. |
 |  4  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 |  5  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 |  6  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
