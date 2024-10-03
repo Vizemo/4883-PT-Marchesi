@@ -1,6 +1,5 @@
 ## 2 - Add Two Numbers
 ### Victor Marchesi
-### Instructions:
 
 ## Description
 
