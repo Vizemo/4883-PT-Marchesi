@@ -16,8 +16,8 @@ Commit this content to your github repo by the due date.
 |  2  | [P69 - Sqrt(x)](./P69) | Folder for problem 69 - Sqrt(x) from leetcode. |
 |  3  | [P125 - Valid Palindrome](./P125) | Folder for problem 125 - Valid Palindrome from leetcode. |
 |  4  | [P2 - Add Two Numbers](./P2) | Folder for problem 2 - Add Two Numbers from leetcode. |
-|  5  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
-|  6  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
+|  5  | [P9 - Palindrome Number](./P9) | Folder for problem 9 - Palindrome Number from leetcode. |
+|  6  | [P1281 - Subtract the Product and Sum of Digits of an Integer](./P1281) | Folder for problem 1281 - Subtract the Product and Sum of Digits of an Integer from leetcode. |
 |  7  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 |  8  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 |  9  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
