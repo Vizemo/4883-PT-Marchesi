@@ -18,7 +18,7 @@ Commit this content to your github repo by the due date.
 |  4  | [P2 - Add Two Numbers](./P2) | Folder for problem 2 - Add Two Numbers from leetcode. |
 |  5  | [P9 - Palindrome Number](./P9) | Folder for problem 9 - Palindrome Number from leetcode. |
 |  6  | [P1281 - Subtract the Product and Sum of Digits of an Integer](./P1281) | Folder for problem 1281 - Subtract the Product and Sum of Digits of an Integer from leetcode. |
-|  7  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
+|  7  | [P1342 - Number of Steps to Reduce a Number to Zero](./P1342) | Folder for problem P1342 - Number of Steps to Reduce a Number to Zero from leetcode. |
 |  8  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 |  9  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 |  10  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
