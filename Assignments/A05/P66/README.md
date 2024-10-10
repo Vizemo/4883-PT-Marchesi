@@ -10,7 +10,7 @@
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./plus_one.pdf) | PDF instructions for P9. |
+|  1  | [Instruction PDF](./P66.pdf) | PDF instructions for P9. |
 |  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P66. |
 |  3  | [Input data from leetcode](./input.txt) | Input file for the problem P66. |
 

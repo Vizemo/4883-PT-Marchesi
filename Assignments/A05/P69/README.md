@@ -10,7 +10,7 @@
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./sqrt(x).pdf) | PDF instructions for P69. |
+|  1  | [Instruction PDF](./P69.pdf) | PDF instructions for P69. |
 |  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P69. |
 |  3  | [Input data from leetcode](./input.txt) | Input file for the problem P69. |
 

@@ -10,7 +10,7 @@
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./p1281.pdf) | PDF instructions for P1281. |
+|  1  | [Instruction PDF](./P1281.pdf) | PDF instructions for P1281. |
 |  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P1281. |
 |  3  | [Input data from leetcode](./input.txt) | Input file for the problem P1281. |
 
