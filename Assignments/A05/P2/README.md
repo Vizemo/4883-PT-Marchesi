@@ -10,7 +10,7 @@
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./add_two_numbers.pdf) | PDF instructions for P2. |
+|  1  | [Instruction PDF](./P2.pdf) | PDF instructions for P2. |
 |  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P2. |
 |  3  | [Input data from leetcode](./input.txt) | Input file for the problem P2. |
 

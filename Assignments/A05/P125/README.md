@@ -10,7 +10,7 @@
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./P125) | PDF instructions for P125. |
+|  1  | [Instruction PDF](./P125.pdf) | PDF instructions for P125. |
 |  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P125. |
 |  3  | [Input data from leetcode](./input.txt) | Input file for the problem P125. |
 
