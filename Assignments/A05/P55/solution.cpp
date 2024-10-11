@@ -14,11 +14,11 @@ public:
             // Update the farthest index we can reach from the current position
             if (index + nums[index] > farthest) 
                 farthest = index + nums[index];
-            
+
             // If we can reach or go beyond the last index, return true
             if (farthest >= size) 
                 return true;
-            
+
             // Move to the next index
             index++;
         }
