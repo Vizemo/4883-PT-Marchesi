@@ -3,7 +3,7 @@
 
 ## Description
 
-- I chose problem [66. Plus One](https://leetcode.com/problems/plus-one/description/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/A05).
+- I chose problem [66. Plus One](https://leetcode.com/problems/plus-one/description/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/05-A05).
 - Below are the documents for the assignment list with short descriptions.
 
 ### Files

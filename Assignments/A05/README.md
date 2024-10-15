@@ -6,7 +6,7 @@ Create a folder called P(problem_number) in your assignments folder.
 Place the pdf, your solution code, and any input files you used in this folder.
 Make sure you create an acceptable README file for this project (presentation is everything!)
 Commit this content to your github repo by the due date. 
-[Link](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/A05) to the instructions and options.
+[Link](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/05-A05) to the instructions and options.
 
 ### Files
 
@@ -20,13 +20,12 @@ Commit this content to your github repo by the due date.
 |  6  | [P1281 - Subtract the Product and Sum of Digits of an Integer](./P1281) | Folder for problem 1281 - Subtract the Product and Sum of Digits of an Integer from leetcode. |
 |  7  | [P1342 - Number of Steps to Reduce a Number to Zero](./P1342) | Folder for problem P1342 - Number of Steps to Reduce a Number to Zero from leetcode. |
 |  8  | [P55 - Jump Game](./P55) | Folder for problem 55 - Jump Game from leetcode. |
-|  9  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
+|  9  | [P66 - Plus One](./P66) | Folder for problem 66 - Plus One from leetcode. |
 |  10  | [P(####) - REPLACEME](./P(####)) | Folder for problem #### - REPLACEME from leetcode. |
 
 ### Instructions
 
 - None
-
 
 
 ### Example Command

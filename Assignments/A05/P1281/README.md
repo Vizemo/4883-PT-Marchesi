@@ -3,7 +3,7 @@
 
 ## Description
 
-- I chose problem [P1281. Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/A05).
+- I chose problem [P1281. Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/05-A05).
 - Below are the documents for the assignment list with short descriptions.
 
 ### Files

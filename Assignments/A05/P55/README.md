@@ -3,7 +3,7 @@
 
 ## Description
 
-- I chose problem [55. Jump Game](https://leetcode.com/problems/jump-game/description/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/A05).
+- I chose problem [55. Jump Game](https://leetcode.com/problems/jump-game/description/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/05-A05).
 - Below are the documents for the assignment list with short descriptions.
 
 ### Files
