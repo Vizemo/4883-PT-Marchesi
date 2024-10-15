@@ -17,3 +17,4 @@ This read me provides a link to all of the files in this class repo.
 |  7  | [A07](./A07) | Priority Queezy |
 |  8  | [A08](./A08) | Graphin Sleezy |
 |  8  | [A09](./A09) | Convex Hull |
+|  8  | [A10](./A10) | Convex Hull |
