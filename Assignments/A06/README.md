@@ -1,25 +1,19 @@
-## A06 - Hardwood Sneezy
+## REPLACEME - REPLACEME
 ### Victor Marchesi
-### Description:
 
-These problems focus on counting frequencies or selecting the top/bottom K elements, using heaps, priority queues, and sorting, which are core strategies shared with LeetCode 692.
-[Link to the Github](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/06-A06).
+## Description
 
-Problem I Chose: 
-
+- Description: REPLACEME.
+- The file chart below contains the documents for the assignment with short descriptions.
+- Underneath the file chart is code solution is displayed.
 
 ### Files
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | No files | No files. |
+|  1  | [Instruction PDF](./REPLACEME.pdf) | PDF instructions for REPLACEME. |
+|  2  | [Solution](./solution.cpp) | Solution.cpp for the problem REPLACEME. |
+|  3  | [Input data from leetcode](./input.txt) | Input file for the problem REPLACEME. |
 
-
-### Instructions
-
-- 
-
-
-### Example Command
-
-- 
+### Solution in C++
+```c++
