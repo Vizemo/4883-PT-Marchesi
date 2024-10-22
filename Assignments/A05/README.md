@@ -2,11 +2,13 @@
 ### Victor Marchesi
 ### Description:
 
-Create a folder called P(problem_number) in your assignments folder.
-Place the pdf, your solution code, and any input files you used in this folder.
-Make sure you create an acceptable README file for this project (presentation is everything!)
+Assignment is to:
+1. Create a folder called P"problem_number" in your assignments folder.
+2. Place the pdf, your solution code, and any input files you used in this folder.
+3. Make sure you create an acceptable README file for this project (presentation is everything!)
 Commit this content to your github repo by the due date. 
 [Link](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/05-A05) to the instructions and options.
+- P1523 is in Python, rest of the problems are in C++
 
 ### Files
 
