@@ -1,9 +1,12 @@
-## REPLACEME - REPLACEME
+## A10 - Geometry Problems
 ### Victor Marchesi
 
 ## Description
 
-- Description: REPLACEME.
+- Geometry like problems
+
+- I chose REPLACEME
+- [LINK](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/10-A10) to the github instructions.
 - The file chart below contains the documents for the assignment with short descriptions.
 - Underneath the file chart is code solution is displayed.
 

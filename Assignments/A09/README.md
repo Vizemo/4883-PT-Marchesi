@@ -1,9 +1,12 @@
-## REPLACEME - REPLACEME
+## A09 - Convex Hull
 ### Victor Marchesi
 
 ## Description
 
-- Description: REPLACEME.
+- Convex Hull problems
+
+- I chose REPLACEME
+- [LINK](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/09-A09) to the github instructions.
 - The file chart below contains the documents for the assignment with short descriptions.
 - Underneath the file chart is code solution is displayed.
 
