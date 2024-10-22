@@ -4,7 +4,8 @@
 ## Description
 
 - I chose problem [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) from the problem [list](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/05-A05).
-- Below are the documents for the assignment list with short descriptions.
+- The file chart below contains the documents for the assignment with short descriptions.
+- Underneath the file chart is code solution is displayed.
 
 ### Files
 
