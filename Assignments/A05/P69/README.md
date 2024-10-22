@@ -17,24 +17,35 @@
 
 ### Solution in C++
 ```c++
-#include <string>
-
 class Solution {
 public:
-    bool isPalindrome(int x) {
-        string reverseStr = "";
-        // convert int to string
-        string numStr = to_string(x);
+    int mySqrt(int x) {
+        // If x is 0 or 1, return x because the square root of 0 is 0 and the 
+        // square root of 1 is 1.
+        if (x == 0 || x == 1) return x;
 
-        // reverse the string
-        for (int i = numStr.length() - 1; i >= 0; i--){
-            reverseStr += numStr[i];
+        // Binary search approach requires initializing left, right, and mid.
+        // Using long long int to avoid overflow when dealing with large values 
+        // of x.
+        long long int left = 0;
+        long long int right = x;
+        long long int mid = 0;
+
+        // Perform binary search until the range is exhausted (right < left)
+        while (right >= left) {
+            mid = (left + right) / 2;
+
+            if (x == mid * mid) return mid;
+
+            else if (x < mid * mid)
+                right = mid - 1;
+
+            else if (x > mid * mid)
+                left = mid + 1;
         }
 
-        // compare the string
-        if (numStr == reverseStr)
-            return true;
-        else
-            return false;
+        // If the exact square root is not found, return the floor of the 
+        // square root, which is 'right'
+        return right;
     }
 };
