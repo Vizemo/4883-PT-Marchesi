@@ -1,24 +1,3 @@
-## A06 - Hardwood Sneezy
-### Victor Marchesi
-
-## Description
-
-- These problems focus on counting frequencies or selecting the top/bottom K elements, using heaps, priority queues, and sorting.
-- [LINK](https://github.com/rugbypro f/4883-Programming_Techniques/tree/master/Assignments/06-A06) to the github instructions.
-- I chose [P1046](https://leetcode.com/problems/last-stone-weight/)
-- The file chart below contains the documents for the assignment with short descriptions.
-- Underneath the file chart is code solution is displayed.
-
-### Files
-
-|   #   | Files    | Description                      |
-| :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./p1046.pdf) | PDF instructions for P1046 - Last Stone Weight. |
-|  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P1046 - Last Stone Weight. |
-|  3  | [Input data from leetcode](./input.txt) | Input file for problem 1046. |
-
-### Solution in C++
-```c++
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
