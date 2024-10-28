@@ -1,24 +1,3 @@
-## A08 - Graphin Sleezy
-### Victor Marchesi
-
-## Description
-
-- Both DFS and BFS are foundational graph traversal algorithms that can be used in a variety of problems, including those involving connected components, tree traversals, and exploring graph-based data structures. Here are 5 LeetCode problems that require graph traversal (DFS/BFS). I explicitly avoided shortest path or spanning tree algorithms.
-- [LINK](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/08-A08) to the github instructions.
-- I chose P200 - Number of Islands, which I solved before the test.
-- The file chart below contains the documents for the assignment with short descriptions.
-- Underneath the file chart the code solution is displayed.
-
-### Files
-
-|   #   | Files    | Description                      |
-| :---: | -------- | -------------------------------- |
-|  1  | [Instruction PDF](./p200.pdf) | PDF instructions for P200 - Number of Islands. |
-|  2  | [Solution](./solution.cpp) | Solution.cpp for the problem P200 - Number of Islands. |
-|  3  | [Input data from leetcode](./input.txt) | Input file for the problem P200 - Number of Islands. |
-
-### Solution in C++
-```c++
 class Solution {
 public:
     void dfs(vector<vector<char>>& grid, int i, int j) {
