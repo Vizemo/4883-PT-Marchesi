@@ -4,13 +4,12 @@
 ## Description
 
 - Choose a problem from Leetcode, Neetcode, Uva Online Judge, or any other source that you find a problem that would be interesting to discuss.
-
-- I chose REPLACEME
 - [LINK](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/12-P01) to the github instructions.
-- The file chart below contains the documents for the assignment with short descriptions.
-- Underneath the file chart is code solution is displayed.
+- I chose REPLACEME
 
 ### Files
+- The file chart below contains the documents for the assignment with short descriptions.
+- Underneath the file chart the code solution is displayed.
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |

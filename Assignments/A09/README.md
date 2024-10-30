@@ -7,7 +7,7 @@
 - [LINK](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/09-A09) to the github instructions.
 - I chose P218 - The Skyline Problem
 - The file chart below contains the documents for the assignment with short descriptions.
-- Underneath the file chart is code solution is displayed.
+- Underneath the file chart the code solution is displayed.
 
 ### Files
 

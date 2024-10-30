@@ -1,9 +1,9 @@
-## A10 - Geometry Problems
+## A11 - Bipartite / Graph Coloring
 ### Victor Marchesi
 
 ## Description
 
-- Geometry like problems
+- Graph coloring / Bipartite Graphs
 - [LINK](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/10-A10) to the github instructions.
 - I chose REPLACEME
 - The file chart below contains the documents for the assignment with short descriptions.
