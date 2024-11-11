@@ -70,3 +70,198 @@ public:
     }
 }
 ```
+
+#### Problem Setup
+We are comparing `word1 = "horse"` and `word2 = "ros"`.
+
+#### Initial DP Table
+The table starts with all entries initialized to `0`:
+
+|      |    | r  | o  | s  |
+|------|----|----|----|----|
+|      | 0  | 0  | 0  | 0  |
+| h    | 0  | 0  | 0  | 0  |
+| o    | 0  | 0  | 0  | 0  |
+| r    | 0  | 0  | 0  | 0  |
+| s    | 0  | 0  | 0  | 0  |
+| e    | 0  | 0  | 0  | 0  |
+
+#### Step 1: Fill Base Cases
+
+1. Fill the first row with increasing values for inserting each character in `word2`:
+
+   |      |    | r  | o  | s  |
+   |------|----|----|----|----|
+   |      | 0  | 1  | 2  | 3  |
+   | h    | 0  | 0  | 0  | 0  |
+   | o    | 0  | 0  | 0  | 0  |
+   | r    | 0  | 0  | 0  | 0  |
+   | s    | 0  | 0  | 0  | 0  |
+   | e    | 0  | 0  | 0  | 0  |
+
+2. Fill the first column with increasing values for deleting each character in `word1`:
+
+   |      |    | r  | o  | s  |
+   |------|----|----|----|----|
+   |      | 0  | 1  | 2  | 3  |
+   | h    | 1  | 0  | 0  | 0  |
+   | o    | 2  | 0  | 0  | 0  |
+   | r    | 3  | 0  | 0  | 0  |
+   | s    | 4  | 0  | 0  | 0  |
+   | e    | 5  | 0  | 0  | 0  |
+
+#### Step 2: Fill DP Table Using Levenshtein Distance Algorithm
+
+Now we proceed to fill the table row by row, comparing characters in `word1` and `word2` and calculating the minimum edit distance for each cell.
+
+##### Row 1 (i = 1, Comparing 'h' in `word1`)
+
+1. **i = 1, j = 1** (Comparing 'h' and 'r'):
+   - Characters don't match.
+   - Costs:
+     - Delete: `dp[0][1] + 1 = 2`
+     - Insert: `dp[1][0] + 1 = 2`
+     - Substitute: `dp[0][0] + 1 = 1`
+   - Minimum cost is `1`, so `dp[1][1] = 1`.
+
+2. **i = 1, j = 2** (Comparing 'h' and 'o'):
+   - Characters don't match.
+   - Costs:
+     - Delete: `dp[0][2] + 1 = 3`
+     - Insert: `dp[1][1] + 1 = 2`
+     - Substitute: `dp[0][1] + 1 = 2`
+   - Minimum cost is `2`, so `dp[1][2] = 2`.
+
+3. **i = 1, j = 3** (Comparing 'h' and 's'):
+   - Characters don't match.
+   - Costs:
+     - Delete: `dp[0][3] + 1 = 4`
+     - Insert: `dp[1][2] + 1 = 3`
+     - Substitute: `dp[0][2] + 1 = 3`
+   - Minimum cost is `3`, so `dp[1][3] = 3`.
+
+After completing row 1, the DP table looks like this:
+
+|   |   | r | o | s |
+|---|---|---|---|---|
+|   | 0 | 1 | 2 | 3 |
+| h | 1 | **1** | **2** | **3** |
+| o | 2 | 0 | 0 | 0 |
+| r | 3 | 0 | 0 | 0 |
+| s | 4 | 0 | 0 | 0 |
+| e | 5 | 0 | 0 | 0 |
+
+##### Row 2 (i = 2, Comparing 'o' in `word1`)
+
+1. **i = 2, j = 1** (Comparing 'o' and 'r'):
+   - Characters don't match.
+   - Costs:
+     - Delete: `dp[1][1] + 1 = 2`
+     - Insert: `dp[2][0] + 1 = 3`
+     - Substitute: `dp[1][0] + 1 = 2`
+   - Minimum cost is `2`, so `dp[2][1] = 2`.
+
+2. **i = 2, j = 2** (Comparing 'o' and 'o'):
+   - Characters match, so `dp[2][2] = dp[1][1] = 1`.
+
+3. **i = 2, j = 3** (Comparing 'o' and 's'):
+   - Characters don't match.
+   - Costs:
+     - Delete: `dp[1][3] + 1 = 4`
+     - Insert: `dp[2][2] + 1 = 2`
+     - Substitute: `dp[1][2] + 1 = 3`
+   - Minimum cost is `2`, so `dp[2][3] = 2`.
+
+After completing row 2, the DP table looks like this:
+
+|   |   | r | o | s |
+|---|---|---|---|---|
+|   | 0 | 1 | 2 | 3 |
+| h | 1 | 1 | 2 | 3 |
+| o | 2 | **2** | **1** | **2** |
+| r | 3 | 0 | 0 | 0 |
+| s | 4 | 0 | 0 | 0 |
+| e | 5 | 0 | 0 | 0 |
+
+##### Row 3 (i = 3, Comparing 'r' in `word1`)
+
+1. **i = 3, j = 1** (Comparing 'r' and 'r'):
+   - Characters match, so `dp[3][1] = dp[2][0] = 2`.
+
+2. **i = 3, j = 2** (Comparing 'r' and 'o'):
+   - Characters don't match.
+   - Costs:
+     - Delete: `dp[2][2] + 1 = 2`
+     - Insert: `dp[3][1] + 1 = 3`
+     - Substitute: `dp[2][1] + 1 = 3`
+   - Minimum cost is `2`, so `dp[3][2] = 2`.
+
+3. **i = 3, j = 3** (Comparing 'r' and 's'):
+   - Characters don't match.
+   - Costs:
+     - Delete: `dp[2][3] + 1 = 3`
+     - Insert: `dp[3][2] + 1 = 3`
+     - Substitute: `dp[2][2] + 1 = 2`
+   - Minimum cost is `2`, so `dp[3][3] = 2`.
+
+After completing row 3, the DP table looks like this:
+
+|   |   | r | o | s |
+|---|---|---|---|---|
+|   | 0 | 1 | 2 | 3 |
+| h | 1 | 1 | 2 | 3 |
+| o | 2 | 2 | 1 | 2 |
+| r | 3 | **2** | **2** | **2** |
+| s | 4 | 0 | 0 | 0 |
+| e | 5 | 0 | 0 | 0 |
+
+##### Row 4 (i = 4, Comparing 's' in `word1`)
+
+1. **i = 4, j = 1** (Comparing 's' and 'r'):
+   - Characters don't match.
+   - Minimum cost is `3`, so `dp[4][1] = 3`.
+
+2. **i = 4, j = 2** (Comparing 's' and 'o'):
+   - Characters don't match.
+   - Minimum cost is `3`, so `dp[4][2] = 3`.
+
+3. **i = 4, j = 3** (Comparing 's' and 's'):
+   - Characters match, so `dp[4][3] = dp[3][2] = 2`.
+
+After completing row 4, the DP table looks like this:
+
+|   |   | r | o | s |
+|---|---|---|---|---|
+|   | 0 | 1 | 2 | 3 |
+| h | 1 | 1 | 2 | 3 |
+| o | 2 | 2 | 1 | 2 |
+| r | 3 | 2 | 2 | 2 |
+| s | 4 | **3** | **3** | **2** |
+| e | 5 | 0 | 0 | 0 |
+
+##### Row 5 (i = 5, Comparing 'e' in `word1`)
+
+1. **i = 5, j = 1** (Comparing 'e' and 'r'):
+   - Characters don't match.
+   - Minimum cost is `4`, so `dp[5][1] = 4`.
+
+2. **i = 5, j = 2** (Comparing 'e' and 'o'):
+   - Characters don't match.
+   - Minimum cost is `3`, so `dp[5][2] = 3`.
+
+3. **i = 5, j = 3** (Comparing 'e' and 's'):
+   - Characters don't match.
+   - Minimum cost is `3`, so `dp[5][3] = 3`.
+
+Final DP Table:
+
+|   |   | r | o | s |
+|---|---|---|---|---|
+|   | 0 | 1 | 2 | 3 |
+| h | 1 | 1 | 2 | 3 |
+| o | 2 | 2 | 1 | 2 |
+| r | 3 | 2 | 2 | 2 |
+| s | 4 | 3 | 3 | 2 |
+| e | 5 | **4** | **3** | **3** |
+
+The answer is in `dp[5][3] = 3`, meaning the minimum edit distance is `3`.
