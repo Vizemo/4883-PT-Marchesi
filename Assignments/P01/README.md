@@ -77,38 +77,38 @@ We are comparing `word1 = "horse"` and `word2 = "ros"`.
 #### Initial DP Table
 The table starts with all entries initialized to `0`:
 
-|      |    | r  | o  | s  |
-|------|----|----|----|----|
-|      | 0  | 0  | 0  | 0  |
-| h    | 0  | 0  | 0  | 0  |
-| o    | 0  | 0  | 0  | 0  |
-| r    | 0  | 0  | 0  | 0  |
-| s    | 0  | 0  | 0  | 0  |
-| e    | 0  | 0  | 0  | 0  |
+|   |   | r | o | s |
+|---|---|---|---|---|
+|   | 0 | 0 | 0 | 0 |
+| h | 0 | 0 | 0 | 0 |
+| o | 0 | 0 | 0 | 0 |
+| r | 0 | 0 | 0 | 0 |
+| s | 0 | 0 | 0 | 0 |
+| e | 0 | 0 | 0 | 0 |
 
 #### Step 1: Fill Base Cases
 
 1. Fill the first row with increasing values for inserting each character in `word2`:
 
-   |      |    | r  | o  | s  |
-   |------|----|----|----|----|
-   |      | 0  | 1  | 2  | 3  |
-   | h    | 0  | 0  | 0  | 0  |
-   | o    | 0  | 0  | 0  | 0  |
-   | r    | 0  | 0  | 0  | 0  |
-   | s    | 0  | 0  | 0  | 0  |
-   | e    | 0  | 0  | 0  | 0  |
+|   |   | r | o | s |
+|---|---|---|---|---|
+|   | 0 | **1** | **2** | **3** |
+| h | 0 | 0 | 0 | 0 |
+| o | 0 | 0 | 0 | 0 |
+| r | 0 | 0 | 0 | 0 |
+| s | 0 | 0 | 0 | 0 |
+| e | 0 | 0 | 0 | 0 |
 
 2. Fill the first column with increasing values for deleting each character in `word1`:
 
-   |      |    | r  | o  | s  |
-   |------|----|----|----|----|
-   |      | 0  | 1  | 2  | 3  |
-   | h    | 1  | 0  | 0  | 0  |
-   | o    | 2  | 0  | 0  | 0  |
-   | r    | 3  | 0  | 0  | 0  |
-   | s    | 4  | 0  | 0  | 0  |
-   | e    | 5  | 0  | 0  | 0  |
+|   |   | r | o | s |
+|---|---|---|---|---|
+|   | 0 | 1 | 2 | 3 |
+| h | **1** | 0 | 0 | 0 |
+| o | **2** | 0 | 0 | 0 |
+| r | **3** | 0 | 0 | 0 |
+| s | **4** | 0 | 0 | 0 |
+| e | **5** | 0 | 0 | 0 |
 
 #### Step 2: Fill DP Table Using Levenshtein Distance Algorithm
 
