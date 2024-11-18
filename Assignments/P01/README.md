@@ -64,7 +64,6 @@ public:
                 }
             }
         }
-
         // The answer is the edit distance between word1 and word2
         return dp[m][n];
     }
