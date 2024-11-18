@@ -44,3 +44,4 @@ public:
         return prod - sum;
     }
 };
+```

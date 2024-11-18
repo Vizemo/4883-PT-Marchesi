@@ -27,3 +27,4 @@ class Solution:
             oddNums += 1
 
         return oddNums
+```
