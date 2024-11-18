@@ -8,6 +8,8 @@
 - I chose [Problem 973 - K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)
 - The file chart below contains the documents for the assignment with short descriptions.
 - Underneath the file chart the code solution is displayed.
+**Note:** The third input on the input.txt failed because my code was too slow.
+- I sped up the solution by swapping the closest point with the last point in the list and removing it. Instead of what I did previously where I was shifting all the remaining points around.
 
 ### Files
 
@@ -21,15 +23,12 @@
 ```c++
 class Solution {
 public:
-    // Function to return the k closest points to the origin
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
         vector<vector<int>> result;
 
-        // Iterate k times to find the closest point
         for (int i = 0; i < k; ++i) {
             int minIndex = 0;
 
-            // Find the index of the closest point
             for (int j = 1; j < points.size(); ++j) {
                 int dist1 = points[minIndex][0] * points[minIndex][0] +
                             points[minIndex][1] * points[minIndex][1];
@@ -41,11 +40,10 @@ public:
                 }
             }
 
-            // Add the closest point to the result
             result.push_back(points[minIndex]);
 
-            // Remove the closest point from the list
-            points.erase(points.begin() + minIndex);
+            points[minIndex] = points.back();
+            points.pop_back();
         }
 
         return result;
