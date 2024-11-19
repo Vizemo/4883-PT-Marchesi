@@ -46,8 +46,8 @@ public:
                     dpt[i][j] = dpt[i - 1][j - 1];
                 } else {
                     // Calculate costs for deletion, insertion, and substitution
-                    int deleteCost = dpt[i - 1][j];        // Deleting a character from word1
-                    int insertCost = dpt[i][j - 1];        // Inserting a character to word1
+                    int deleteCost = dpt[i - 1][j];         // Deleting a character from word1
+                    int insertCost = dpt[i][j - 1];         // Inserting a character to word1
                     int substituteCost = dpt[i - 1][j - 1]; // Replacing a character in word1
 
                     // Find the minimum cost among the three operations
