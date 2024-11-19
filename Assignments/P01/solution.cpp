@@ -9,16 +9,16 @@ public:
         // dpt[i][j] will store the minimum edit distance to convert word1[0..i-1] to word2[0..j-1]
         vector<vector<int>> dpt(m + 1, vector<int>(n + 1, 0));
 
-        // Base case: Converting word1 to an empty word2 requires i deletions
+        // Converting word1 to an empty word2 requires m deletions
         for (int i = 0; i <= m; i++) dpt[i][0] = i;
 
-        // Base case: Converting an empty word1 to word2 requires j insertions
-        for (int j = 0; j <= n; j++) dpt[0][j] = j;
+        // Converting an empty word1 to word2 requires n insertions
+        for (int i = 0; i <= n; i++) dpt[0][i] = i;
 
         // Fill the DP table by calculating dpt[i][j] for each i and j
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {
-                // If characters are the same, no operation is needed; take previous diagonal value
+                // If characters are the same, no operation is needed
                 if (word1[i - 1] == word2[j - 1]) {
                     dpt[i][j] = dpt[i - 1][j - 1];
                 } else {
