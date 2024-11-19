@@ -88,7 +88,7 @@ The table starts with all entries initialized to `0`:
 
 |   |   | r | o | s |
 |---|---|---|---|---|
-|   | 0 | <u>**1**</u> | <u>**2**</u> | <u>**3**</u> |
+|   | 0 | **1** | **2** | **3** |
 | h | 0 | 0 | 0 | 0 |
 | o | 0 | 0 | 0 | 0 |
 | r | 0 | 0 | 0 | 0 |
@@ -100,11 +100,11 @@ The table starts with all entries initialized to `0`:
 |   |   | r | o | s |
 |---|---|---|---|---|
 |   | 0 | 1 | 2 | 3 |
-| h | **<u>1<u>** | 0 | 0 | 0 |
-| o | **<u>2<u>** | 0 | 0 | 0 |
-| r | **<u>3<u>** | 0 | 0 | 0 |
-| s | **<u>4<u>** | 0 | 0 | 0 |
-| e | **<u>5<u>** | 0 | 0 | 0 |
+| h | **1** | 0 | 0 | 0 |
+| o | **2** | 0 | 0 | 0 |
+| r | **3** | 0 | 0 | 0 |
+| s | **4** | 0 | 0 | 0 |
+| e | **5** | 0 | 0 | 0 |
 
 #### Step 2: Fill DP Table Using Levenshtein Distance Algorithm
 
@@ -141,7 +141,7 @@ After completing row 1, the DP table looks like this:
 |   |   | r | o | s |
 |---|---|---|---|---|
 |   | 0 | 1 | 2 | 3 |
-| h | 1 | **<u>1<u>** | **<u>2<u>** | **<u>3<u>** |
+| h | 1 | **1** | **2** | **3** |
 | o | 2 | 0 | 0 | 0 |
 | r | 3 | 0 | 0 | 0 |
 | s | 4 | 0 | 0 | 0 |
@@ -174,7 +174,7 @@ After completing row 2, the DP table looks like this:
 |---|---|---|---|---|
 |   | 0 | 1 | 2 | 3 |
 | h | 1 | 1 | 2 | 3 |
-| o | 2 | **<u>2<u>** | **<u>1<u>** | **<u>2<u>** |
+| o | 2 | **2** | **1** | **2** |
 | r | 3 | 0 | 0 | 0 |
 | s | 4 | 0 | 0 | 0 |
 | e | 5 | 0 | 0 | 0 |
@@ -207,7 +207,7 @@ After completing row 3, the DP table looks like this:
 |   | 0 | 1 | 2 | 3 |
 | h | 1 | 1 | 2 | 3 |
 | o | 2 | 2 | 1 | 2 |
-| r | 3 | **<u>2<u>** | **<u>2<u>** | **<u>2<u>** |
+| r | 3 | **2** | **2** | **2** |
 | s | 4 | 0 | 0 | 0 |
 | e | 5 | 0 | 0 | 0 |
 
@@ -232,7 +232,7 @@ After completing row 4, the DP table looks like this:
 | h | 1 | 1 | 2 | 3 |
 | o | 2 | 2 | 1 | 2 |
 | r | 3 | 2 | 2 | 2 |
-| s | 4 | **<u>3<u>** | **<u>3<u>** | **<u>2<u>** |
+| s | 4 | **3** | **3** | **2** |
 | e | 5 | 0 | 0 | 0 |
 
 ##### Row 5 (i = 5, Comparing 'e' in `word1`)
@@ -258,6 +258,6 @@ Final DP Table:
 | o | 2 | 2 | 1 | 2 |
 | r | 3 | 2 | 2 | 2 |
 | s | 4 | 3 | 3 | 2 |
-| e | 5 | **<u>4<u>** | **<u>3<u>** | **<u>3<u>** |
+| e | 5 | **4** | **3** | **3** |
 
 The answer is in `dp[5][3] = 3`, meaning the minimum edit distance is `3`.
