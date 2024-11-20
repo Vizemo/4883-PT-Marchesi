@@ -1,24 +1,3 @@
-## A11 - Bipartite / Graph Coloring
-### Victor Marchesi
-
-## Description
-
-- Graph coloring / Bipartite Graphs
-- [LINK](https://github.com/rugbyprof/4883-Programming_Techniques/tree/master/Assignments/13-A11) to the github instructions.
-- I chose leetcode problem [886 - Possible Partition](https://leetcode.com/problems/possible-bipartition/description/)
-- The file chart below contains the documents for the assignment with short descriptions.
-- Underneath the file chart the code solution is displayed.
-
-### Files
-
-| # | Files | Description |
-| - | - | - |
-| 1 | [Instruction PDF](./p886.pdf) | PDF instructions for leetcode problem 886 - Possible Partition |
-| 2 | [Solution](./solution.py) | `Solution.py` for the leetcode problem 886 - Possible Partition. |
-| 3 | [Input data from leetcode](./input.txt) | Input file for the leetcode problem 886 - Possible Partition. |
-
-### Solution in Python
-```python
 # This is to make error squiggles go away
 from typing import List
 
@@ -64,4 +43,3 @@ class Solution:
                     return False
 
         return True
-```
