@@ -17,7 +17,7 @@
 | 1 | [Instruction PDF](./p72.pdf) | PDF instructions for problem number 72 from leetcode. |
 | 2 | [Solution](./solution.cpp) | Solution.cpp for the problem number 72 from leetcode. |
 | 3 | [Input data from leetcode](./input.txt) | Input file for the problem number 72 from leetcode. |
-| 4 | [Powerpoint](./p72_VM.ppsx) | Powerpoint show used to aid the presentation for problem number 72 from leetcode. |
+| 4 | [Powerpoint](./p72-VM.pptx) | Powerpoint show used to aid the presentation for problem number 72 from leetcode. |
 
 ### Solution in C++
 ```c++
